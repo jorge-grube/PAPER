@@ -29,6 +29,18 @@ Thumbs.db
 ~$*.pptx
 *.tmp
 lu*.tmp
+.~lock.*#
+
+# ── Helper scripts (not part of project) ─────────────────────────────────────
+git_push.bat
+
+# ── Local paper workspace (keep files on disk, do not version) ──────────────
+paper/
+
+# ── Old paper root artifacts ─────────────────────────────────────────────────
+paper/paper_draft_FINAL.docx
+paper/build_paper_FINAL.js
+paper/build_paper_v8.js
 
 # ── Docs folder (excluded) ───────────────────────────────────────────────────
 docs/
