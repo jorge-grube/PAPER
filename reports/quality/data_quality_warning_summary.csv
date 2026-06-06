@@ -1,6 +1,0 @@
-warnings,size
-expected_missing_data_start_row_metadata,2
-expected_missing_header_row_metadata,2
-high_missing_ratio_value_series,2
-live_query_formula_without_cached_history,2
-used_fallback_sheet_for_extraction,2

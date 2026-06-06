@@ -1,0 +1,34 @@
+# ============================================================================
+# PAPER — European regime-aware CVaR portfolio
+# Python 3.11.x  |  Last updated: 2026-05-08
+# Pin exact versions to avoid silent behavior drift.
+# ============================================================================
+
+# --- Core data stack --------------------------------------------------------
+pandas==3.0.2
+numpy==2.4.4
+pyarrow==24.0.0          # parquet writer for data/processed/*.parquet
+openpyxl==3.1.5          # primary xlsx engine
+python-calamine==0.6.2   # fallback xlsx engine for LSEG Workspace files
+PyYAML==6.0.3
+python-dateutil==2.9.0.post0
+tzdata==2026.1
+
+# --- Modelling stack --------------------------------------------------------
+scipy>=1.13,<2            # HiGHS LP backend for CVaR (linprog), SLSQP for Markowitz
+scikit-learn>=1.5,<2      # LedoitWolf covariance shrinkage
+hmmlearn>=0.3,<1          # Gaussian HMM regime detection
+statsmodels>=0.14,<1      # optional: statistical tests (Diebold-Mariano, etc.)
+matplotlib>=3.9,<4        # figures / tear sheets
+seaborn>=0.13,<1          # heatmaps / regime allocation charts
+
+# --- Notebook / interactive (optional) --------------------------------------
+ipykernel==7.2.0
+jupyter_client==8.8.0
+jupyter_core==5.9.1
+ipython==9.13.0
+
+# --- Dev tools (recommended) ------------------------------------------------
+# pytest>=8,<9
+# black>=24,<26
+# ruff>=0.6,<1

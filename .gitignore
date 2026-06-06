@@ -1,0 +1,93 @@
+# ── Virtual environments ────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Python bytecode / build ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── IDE / editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ── Office lock & temp files ─────────────────────────────────────────────────
+~$*.xlsx
+~$*.xls
+~$*.docx
+~$*.pptx
+*.tmp
+lu*.tmp
+
+# ── Docs folder (excluded) ───────────────────────────────────────────────────
+docs/
+
+# ── Node modules ─────────────────────────────────────────────────────────────
+node_modules/
+paper/node_modules/
+
+# ── Processed data (regenerable via pipeline) ────────────────────────────────
+data/processed/
+
+# ── Paper drafts: keep only current v7; exclude everything else ──────────────
+paper/drafts/paper_draft_JF_style*
+paper/drafts/paper_draft_FINAL*
+paper/drafts/paper_draft_ECONOMIES_MDPI_FULL.docx
+paper/drafts/paper_draft_ECONOMIES_MDPI_FULL.pdf
+paper/drafts/paper_draft_ECONOMIES_MDPI_FULL_v1.*
+paper/drafts/paper_draft_ECONOMIES_MDPI_FULL_v2.*
+paper/drafts/paper_draft_ECONOMIES_MDPI_FULL_v3.*
+paper/drafts/paper_draft_ECONOMIES_MDPI_FULL_v4.*
+paper/drafts/paper_draft_ECONOMIES_MDPI_FULL_v5.*
+paper/drafts/paper_draft_ECONOMIES_MDPI_FULL_v6.*
+paper/drafts/paper_draft_ECONOMIES_MDPI_FULL_v7.1.*
+paper/drafts/paper_draft_ECONOMIES_MDPI_BLINDED.docx
+paper/drafts/paper_draft_ECONOMIES_MDPI_BLINDED.pdf
+paper/drafts/paper_draft_ECONOMIES_MDPI_BLINDED_v1.*
+paper/drafts/paper_draft_ECONOMIES_MDPI_BLINDED_v2.*
+paper/drafts/paper_draft_ECONOMIES_MDPI_BLINDED_v3.*
+paper/drafts/paper_draft_ECONOMIES_MDPI_BLINDED_v4.*
+paper/drafts/paper_draft_ECONOMIES_MDPI_BLINDED_v5.*
+paper/drafts/paper_draft_ECONOMIES_MDPI_BLINDED_v6.*
+paper/drafts/ARCHIVED_*
+paper/drafts/When Regimes*
+paper/drafts/PAPER DRAFT.pdf
+paper/drafts/PAPER.pdf
+
+# ── Paper notes: exclude old JF/FINAL notes, keep only MDPI current note ────
+paper/notes/paper_draft_JF_style*
+paper/notes/paper_draft_FINAL_notes.md
+
+# ── Reports: keep only final/ and figures/ ───────────────────────────────────
+reports/archive/
+reports/data/
+reports/fi_expanded/
+reports/model_improvement/
+reports/regimes/
+reports/panels/
+reports/data_validation_summary.md
+reports/final_dataset_summary.md
+reports/frequency_report.csv
+reports/missing_values_report.csv
+reports/outlier_report.csv
+reports/series_coverage_report.csv
+reports/quality/
+
+# ── Scripts archive ───────────────────────────────────────────────────────────
+scripts/archive/
+
+# ── Local secrets / env ───────────────────────────────────────────────────────
+.env
+.env.local
+secrets.yml

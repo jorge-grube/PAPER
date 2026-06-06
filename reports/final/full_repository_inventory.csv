@@ -1,0 +1,313 @@
+path,ext,size_bytes,last_modified,class,active,referenced_by,safe_to_delete,comments
+.gitignore,,1182,2026-04-27,G,yes,git,no,VCS config
+README.md,md,7501,2026-05-09,G,yes,human,no,Top-level documentation
+data/README_DATA.md,md,4557,2026-05-10,G,yes,human,no,Top-level documentation
+data/investable_assets/cash/EURIBOR_3M.xlsx,xlsx,118572,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/investable_assets/commodities/Bloomberg_Commodity.xlsx,xlsx,514226,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/investable_assets/commodities/Brent.xlsx,xlsx,658574,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/investable_assets/commodities/Gold.xlsx,xlsx,130929,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/investable_assets/equity/CAC 40.xlsx,xlsx,602951,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/investable_assets/equity/DAX.xlsx,xlsx,598582,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/investable_assets/equity/EuroStoxx50.xlsx,xlsx,565469,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/investable_assets/equity/FTSE_MIB.xlsx,xlsx,587331,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/investable_assets/equity/IBEX35.xlsx,xlsx,570886,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/investable_assets/equity/StoxxEurope600.xlsx,xlsx,539881,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/investable_assets/real_assets/FTSE_EPRA_NAREIT_Europe.xlsx,xlsx,388374,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/processed/archive/canonical_backtest_diagnostics.json,json,981,2026-05-08,I,no,none,archive,Archived processed parquet
+data/processed/archive/canonical_backtest_returns.parquet,parquet,57950,2026-05-08,I,no,none,archive,Archived processed parquet
+data/processed/archive/canonical_backtest_weights_markowitz.parquet,parquet,29512,2026-05-08,I,no,none,archive,Archived processed parquet
+data/processed/archive/canonical_backtest_weights_regime_A.parquet,parquet,18734,2026-05-08,I,no,none,archive,Archived processed parquet
+data/processed/archive/canonical_backtest_weights_regime_B.parquet,parquet,18649,2026-05-08,I,no,none,archive,Archived processed parquet
+data/processed/archive/canonical_backtest_weights_static_cvar.parquet,parquet,16697,2026-05-08,I,no,none,archive,Archived processed parquet
+data/processed/archive/canonical_backtest_weights_weighted_cvar.parquet,parquet,18649,2026-05-08,I,no,none,archive,Archived processed parquet
+data/processed/archive/canonical_crisis_windows.parquet,parquet,9377,2026-05-08,I,no,none,archive,Archived processed parquet
+data/processed/archive/canonical_metrics.parquet,parquet,7653,2026-05-08,I,no,none,archive,Archived processed parquet
+data/processed/archive/gen1_wrong/backtest_returns.parquet,parquet,56348,2026-05-07,I,no,none,archive,Archived processed parquet
+data/processed/archive/gen1_wrong/backtest_returns_v2.parquet,parquet,67488,2026-05-07,I,no,none,archive,Archived processed parquet
+data/processed/archive/gen1_wrong/backtest_weights_regime.parquet,parquet,20532,2026-05-07,I,no,none,archive,Archived processed parquet
+data/processed/archive/gen1_wrong/backtest_weights_regime_v2.parquet,parquet,21080,2026-05-07,I,no,none,archive,Archived processed parquet
+data/processed/archive/gen1_wrong/backtest_weights_uncond.parquet,parquet,19634,2026-05-07,I,no,none,archive,Archived processed parquet
+data/processed/archive/gen1_wrong/backtest_weights_uncond_v2.parquet,parquet,20244,2026-05-07,I,no,none,archive,Archived processed parquet
+data/processed/archive/hmm_wf_checkpoint.pkl,pkl,55252,2026-05-08,I,no,none,archive,Archived processed parquet
+data/processed/archive/regime_labels_wf.parquet,parquet,12836,2026-05-08,I,no,none,archive,Archived processed parquet
+data/processed/archive/regime_probs_wf.parquet,parquet,24905,2026-05-08,I,no,none,archive,Archived processed parquet
+data/processed/fi_expanded/returns_regime_constrained_fi_expanded.parquet,parquet,17120,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/fi_expanded/weights_regime_constrained_fi_expanded.parquet,parquet,22259,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/hmm_diagnostics.json,json,10215,2026-05-08,C,yes,scripts,no,Active processed parquet
+data/processed/hmm_wf_checkpoint_156.pkl,pkl,45916,2026-05-09,C,yes,scripts,no,Active processed parquet
+data/processed/hmm_wf_checkpoint_156_hicp_lag6.pkl,pkl,45876,2026-05-09,C,yes,scripts,no,Active processed parquet
+data/processed/investable_prices_weekly.parquet,parquet,129936,2026-05-08,C,yes,scripts,no,Active processed parquet
+data/processed/investable_prices_weekly_fi_expanded.parquet,parquet,168938,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/investable_returns_weekly.parquet,parquet,159001,2026-05-08,C,yes,scripts,no,Active processed parquet
+data/processed/investable_returns_weekly_fi_expanded.parquet,parquet,199995,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/metadata.yaml,yaml,24260,2026-05-08,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/hmm_wf_checkpoint_156_zew_swap.pkl,pkl,46118,2026-05-09,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/panel_b_returns_zew_swap.parquet,parquet,57465,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/rebalance_frequency/crisis_baseline_freq2.csv,csv,1940,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/rebalance_frequency/crisis_baseline_freq4.csv,csv,1942,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/rebalance_frequency/crisis_baseline_freq8.csv,csv,1949,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/rebalance_frequency/crisis_zew_swap_freq2.csv,csv,1933,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/rebalance_frequency/crisis_zew_swap_freq4.csv,csv,1937,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/rebalance_frequency/crisis_zew_swap_freq8.csv,csv,1944,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/rebalance_frequency/perf_baseline_freq2.csv,csv,3308,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/rebalance_frequency/perf_baseline_freq4.csv,csv,3320,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/rebalance_frequency/perf_baseline_freq8.csv,csv,3307,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/rebalance_frequency/perf_zew_swap_freq2.csv,csv,3304,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/rebalance_frequency/perf_zew_swap_freq4.csv,csv,3319,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/rebalance_frequency/perf_zew_swap_freq8.csv,csv,3310,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/regime_constraints/weights_rc_baseline.parquet,parquet,16568,2026-05-12,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/regime_constraints/weights_rc_zew.parquet,parquet,16518,2026-05-12,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/regime_constraints/weights_regime_cvar_A.parquet,parquet,18290,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/regime_constraints/weights_static_cvar.parquet,parquet,21528,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/regime_constraints/weights_weighted_cvar.parquet,parquet,18715,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/regime_constraints/weights_zew_regime_cvar_A.parquet,parquet,18806,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/regime_constraints/weights_zew_weighted_cvar.parquet,parquet,19633,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/regime_features_weekly_zew_swap.parquet,parquet,411436,2026-05-09,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/regime_labels_wf_156_zew_swap.parquet,parquet,12829,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/regime_probs_wf_156_zew_swap.parquet,parquet,25957,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_regime_cvar_A_baseline.parquet,parquet,18290,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_regime_cvar_A_constrained_tau010.parquet,parquet,20218,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_regime_cvar_A_constrained_tau020.parquet,parquet,19860,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_regime_cvar_A_constrained_tau030.parquet,parquet,19784,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_regime_cvar_A_penalized_lam001.parquet,parquet,18486,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_regime_cvar_A_penalized_lam005.parquet,parquet,17519,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_regime_cvar_A_penalized_lam010.parquet,parquet,17208,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_static_cvar_baseline.parquet,parquet,21528,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_static_cvar_constrained_tau010.parquet,parquet,23479,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_static_cvar_constrained_tau020.parquet,parquet,22494,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_static_cvar_constrained_tau030.parquet,parquet,22053,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_static_cvar_penalized_lam001.parquet,parquet,21363,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_static_cvar_penalized_lam005.parquet,parquet,20518,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_static_cvar_penalized_lam010.parquet,parquet,19950,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_weighted_cvar_baseline.parquet,parquet,18715,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_weighted_cvar_constrained_tau010.parquet,parquet,20149,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_weighted_cvar_constrained_tau020.parquet,parquet,20042,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_weighted_cvar_constrained_tau030.parquet,parquet,19964,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_weighted_cvar_penalized_lam001.parquet,parquet,18387,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_weighted_cvar_penalized_lam005.parquet,parquet,17492,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_weighted_cvar_penalized_lam010.parquet,parquet,16702,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_zew_regime_cvar_A_baseline.parquet,parquet,18806,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_zew_regime_cvar_A_constrained_tau010.parquet,parquet,21118,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_zew_regime_cvar_A_constrained_tau020.parquet,parquet,21418,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_zew_regime_cvar_A_constrained_tau030.parquet,parquet,20663,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_zew_regime_cvar_A_penalized_lam001.parquet,parquet,19109,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_zew_regime_cvar_A_penalized_lam005.parquet,parquet,17638,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_zew_regime_cvar_A_penalized_lam010.parquet,parquet,16734,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_zew_weighted_cvar_baseline.parquet,parquet,19633,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_zew_weighted_cvar_constrained_tau010.parquet,parquet,20953,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_zew_weighted_cvar_constrained_tau020.parquet,parquet,21321,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_zew_weighted_cvar_constrained_tau030.parquet,parquet,20831,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_zew_weighted_cvar_penalized_lam001.parquet,parquet,19165,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_zew_weighted_cvar_penalized_lam005.parquet,parquet,17935,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/model_improvement/tc_aware_cvar/weights_zew_weighted_cvar_penalized_lam010.parquet,parquet,17088,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/panel_a_returns.parquet,parquet,60824,2026-05-09,C,yes,scripts,no,Active processed parquet
+data/processed/panel_a_returns_fi_expanded.parquet,parquet,60824,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/panel_b_returns.parquet,parquet,57465,2026-05-09,C,yes,scripts,no,Active processed parquet
+data/processed/panel_b_returns_fi_expanded.parquet,parquet,57465,2026-05-10,C,yes,scripts,no,Active processed parquet
+data/processed/regime_dataset.parquet,parquet,102568,2026-05-07,C,yes,scripts,no,Active processed parquet
+data/processed/regime_features_weekly.parquet,parquet,400320,2026-05-08,C,yes,scripts,no,Active processed parquet
+data/processed/regime_features_weekly_hicp_lag6.parquet,parquet,400320,2026-05-09,C,yes,scripts,no,Active processed parquet
+data/processed/regime_labels_full.parquet,parquet,12875,2026-05-07,C,yes,scripts,no,Active processed parquet
+data/processed/regime_labels_wf_156.parquet,parquet,12857,2026-05-09,C,yes,scripts,no,Active processed parquet
+data/processed/regime_labels_wf_156_hicp_lag6.parquet,parquet,12845,2026-05-09,C,yes,scripts,no,Active processed parquet
+data/processed/regime_probs_wf_156.parquet,parquet,26004,2026-05-09,C,yes,scripts,no,Active processed parquet
+data/processed/regime_probs_wf_156_hicp_lag6.parquet,parquet,25975,2026-05-09,C,yes,scripts,no,Active processed parquet
+data/processed/regime_variables_weekly.parquet,parquet,180366,2026-05-08,C,yes,scripts,no,Active processed parquet
+data/raw/fixed_income/BBG Euro Aggregate Treasury 10+ Year Idx I ACC EUR.xls,xls,88556,2026-05-10,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/raw/fixed_income/ECB Data Portal long_20260510172456.xlsx,xlsx,645014,2026-05-10,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/raw/fixed_income/FTSE EUROZONE GOVERNMENT BOND TOTAL RETURN INDEX EUR END OF DAY.xlsx,xlsx,73109,2026-05-10,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/raw/fixed_income/FTSE GERMAN GOVERNMENT BOND TOTAL RETURN INDEX EUR END OF DAY.xlsx,xlsx,137137,2026-05-10,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/raw/fixed_income/FTSE ITALIAN GOVERNMENT BOND TOTAL RETURN INDEX EUR END OF DAY.xlsx,xlsx,198225,2026-05-10,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/raw/fixed_income/FTSE SPANISH GOVERNMENT BOND TOTAL RETURN INDEX EUR END OF DAY.xlsx,xlsx,136910,2026-05-10,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/raw/fixed_income/FTSE UK GOVERNMENT BOND TOTAL RETURN INDEX EUR END OF DAY.xlsx,xlsx,35134,2026-05-10,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/global/DXY_USD_Index.xlsx,xlsx,113928,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/global/US_10Y_Yield.xlsx,xlsx,26345,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/global/World_Manufacturing_PMI.xlsx,xlsx,14606,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/growth/Eurozona_Unemployment.xlsx,xlsx,29977,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/growth/Eurozone_GDP_Revised_QQ.xlsx,xlsx,23516,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/growth/Eurozone_Industrial_Production.xlsx,xlsx,32876,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/growth/Eurozone_PMI_Manufactoring.xlsx,xlsx,32019,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/growth/Eurozone_PMI_Services.xlsx,xlsx,31021,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/growth/Germany_GDP_Detailed_QQ.xlsx,xlsx,22212,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/growth/Spain_GDP_Final_QQ.xlsx,xlsx,21953,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/inflation/Eurozone_HICP.xlsx,xlsx,32848,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/inflation/Eurozone_HICP_Core.xlsx,xlsx,18192,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/inflation/Eurozone_PPI.xlsx,xlsx,17348,2026-05-07,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/inflation/Germany_HICP.xlsx,xlsx,115501,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/inflation/Spain_HICP.xlsx,xlsx,34925,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/monetary/ECB_Deposit_Facility_Rate.xlsx,xlsx,15732,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/monetary/ECB_Main_Refinancing_Rate.xlsx,xlsx,15767,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/monetary/ECB_Total_Assets.xlsx,xlsx,17249,2026-05-07,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/monetary/Germany_10Y_Yield.xlsx,xlsx,24886,2026-05-07,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/monetary/Germany_2Y_Yield.xlsx,xlsx,12507,2026-05-07,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/sentiment/Eurozone_Consumer_Confidence.xlsx,xlsx,42167,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/sentiment/Eurozone_Economic_Sentiment_Indicator.xlsx,xlsx,35139,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/sentiment/ZEW_Germany.xlsx,xlsx,86929,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/sovereign_yields/Belgium_LongTerm_6Plus.xlsx,xlsx,25255,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/sovereign_yields/France_LongTerm_7Plus.xlsx,xlsx,25285,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/sovereign_yields/Germany_10Y.xlsx,xlsx,24886,2026-05-07,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/sovereign_yields/Italy_MixedMaturity.xlsx,xlsx,26702,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/sovereign_yields/Netherlands_10Y.xlsx,xlsx,25415,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/sovereign_yields/Portugal_10Y.xlsx,xlsx,17974,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/sovereign_yields/Spain_LongTerm.xlsx,xlsx,19648,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/sovereign_yields/UK_LongTerm_20Plus.xlsx,xlsx,25603,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/volatility/EuroStoxx50_RealizedVol.xlsx,xlsx,377054,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/volatility/MOVE.xlsx,xlsx,329538,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/volatility/VIX.xlsx,xlsx,348017,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+data/regime_variables/volatility/VSTOXX.xlsx,xlsx,377054,2026-04-24,L,yes,"scripts/01,16",no,Raw proprietary LSEG xlsx
+docs/ACTIVE_OUTPUTS.md,md,4038,2026-05-10,G,yes,human,no,Active documentation
+docs/METHODOLOGY.md,md,5680,2026-05-10,G,yes,human,no,Active documentation
+docs/REPO_STRUCTURE.md,md,8041,2026-05-10,G,yes,human,no,Active documentation
+docs/RUN_ORDER.md,md,5265,2026-05-10,G,yes,human,no,Active documentation
+docs/archive/MIGRATION.md,md,34488,2026-05-07,I,no,no,archive,Archived docs in docs/archive/
+docs/archive/NEXT_EXECUTION.md,md,13131,2026-05-07,I,no,no,archive,Archived docs in docs/archive/
+docs/archive/repo_cleanup_plan.md,md,8689,2026-05-09,I,no,no,archive,Archived docs in docs/archive/
+notebooks/README.md,md,455,2026-04-24,J,no,none,yes,Placeholder notebook dir
+paper/build_paper_v8.js,js,96936,2026-05-12,F,yes,human,no,Build script for v8 docx/pdf
+paper/drafts/When Regimes Do Not Pay.pdf,pdf,1590511,2026-05-11,F,yes,human,no,Current paper draft
+paper/drafts/paper_draft_JF_style.docx,docx,303815,2026-05-10,H,no,history,no,Older paper draft (kept for history)
+paper/drafts/paper_draft_JF_style_v4.docx,docx,42019,2026-05-11,H,no,history,no,Older paper draft (kept for history)
+paper/drafts/paper_draft_JF_style_v5.docx,docx,42516,2026-05-11,H,no,history,no,Older paper draft (kept for history)
+paper/drafts/paper_draft_JF_style_v6_submission_ready.docx,docx,1454702,2026-05-11,H,no,history,no,Older paper draft (kept for history)
+paper/drafts/paper_draft_JF_style_v7_CLEAN.docx,docx,1454926,2026-05-11,H,no,history,no,Older paper draft (kept for history)
+paper/drafts/paper_draft_JF_style_v7_CLEAN.pdf,pdf,1590511,2026-05-11,H,no,history,no,Older paper draft (kept for history)
+paper/drafts/paper_draft_JF_style_v8_FINAL_FOR_FEEDBACK.docx,docx,1459145,2026-05-12,F,yes,human,no,Current paper draft
+paper/drafts/paper_draft_JF_style_v8_FINAL_FOR_FEEDBACK.pdf,pdf,1590584,2026-05-12,F,yes,human,no,Current paper draft
+paper/figures/figure_1_regime_timeline.png,png,299363,2026-05-12,F,yes,draft,no,Active paper figure
+paper/figures/figure_2_cumulative_wealth_panel_b.png,png,482821,2026-05-12,F,yes,draft,no,Active paper figure
+paper/figures/figure_3_turnover_vs_net_sharpe.png,png,222309,2026-05-12,F,yes,draft,no,Active paper figure
+paper/figures/figure_4_static_cvar_weights_baseline_vs_fi.png,png,183420,2026-05-12,F,yes,draft,no,Active paper figure
+paper/figures/figure_5_drawdown_baseline_vs_fi.png,png,350818,2026-05-12,F,yes,draft,no,Active paper figure
+paper/notes/paper_draft_JF_style_notes.md,md,9045,2026-05-10,H,no,history,no,Older paper notes
+paper/notes/paper_draft_JF_style_v4_notes.md,md,8368,2026-05-11,H,no,history,no,Older paper notes
+paper/notes/paper_draft_JF_style_v5_notes.md,md,14171,2026-05-11,H,no,history,no,Older paper notes
+paper/notes/paper_draft_JF_style_v6_submission_ready_notes.md,md,10659,2026-05-11,H,no,history,no,Older paper notes
+paper/notes/paper_draft_JF_style_v7_CLEAN_notes.md,md,5460,2026-05-11,H,no,history,no,Older paper notes
+paper/notes/paper_draft_JF_style_v8_FINAL_FOR_FEEDBACK_notes.md,md,7247,2026-05-12,F,yes,human,no,Current paper notes
+paper/tables/appendix_f_correlations.csv,csv,667,2026-05-12,F,yes,draft,no,Active paper table
+paper/tables/appendix_f_descriptive_stats.csv,csv,577,2026-05-12,F,yes,draft,no,Active paper table
+reports/archive/cvar_backtest_summary.md,md,3076,2026-05-07,I,no,none,archive,Archived report
+reports/archive/frequency_report.csv,csv,6840,2026-05-08,I,no,none,archive,Archived report
+reports/archive/inventory.csv,csv,11132,2026-04-24,I,no,none,archive,Archived report
+reports/archive/inventory.md,md,15419,2026-04-24,I,no,none,archive,Archived report
+reports/archive/missing_values_report.csv,csv,7289,2026-05-08,I,no,none,archive,Archived report
+reports/archive/outlier_report.csv,csv,152305,2026-05-08,I,no,none,archive,Archived report
+reports/archive/performance_gross_net.csv,csv,2723,2026-05-08,I,no,none,archive,Archived report
+reports/archive/quality/data_quality_detailed.csv,csv,12282,2026-04-24,I,no,none,archive,Archived report
+reports/archive/quality/data_quality_issue_summary.csv,csv,13,2026-04-24,I,no,none,archive,Archived report
+reports/archive/quality/data_quality_issues.csv,csv,1278,2026-04-24,I,no,none,archive,Archived report
+reports/archive/quality/data_quality_q1_readiness.csv,csv,8724,2026-04-25,I,no,none,archive,Archived report
+reports/archive/quality/data_quality_q1_readiness_summary.csv,csv,62,2026-04-25,I,no,none,archive,Archived report
+reports/archive/quality/data_quality_research_readiness.csv,csv,8964,2026-04-25,I,no,none,archive,Archived report
+reports/archive/quality/data_quality_transform_plan.csv,csv,8235,2026-04-25,I,no,none,archive,Archived report
+reports/archive/quality/data_quality_warning_summary.csv,csv,217,2026-04-24,I,no,none,archive,Archived report
+reports/archive/sample_coverage_table.csv,csv,1386,2026-05-08,I,no,none,archive,Archived report
+reports/archive/series_coverage_report.csv,csv,8644,2026-05-08,I,no,none,archive,Archived report
+reports/archive/statistical_tests.csv,csv,649,2026-05-08,I,no,none,archive,Archived report
+reports/archive/statistical_tests.md,md,2538,2026-05-09,I,no,none,archive,Archived report
+reports/archive/transaction_cost_sensitivity.csv,csv,2107,2026-05-08,I,no,none,archive,Archived report
+reports/data/data_inventory.yml,yml,21158,2026-05-07,D,yes,paper,no,Active report
+reports/data/data_validation_summary.md,md,6181,2026-05-08,D,yes,paper,no,Active report
+reports/data/final_dataset_summary.md,md,952,2026-05-09,D,yes,paper,no,Active report
+reports/data/fixed_income_candidate_audit.md,md,17603,2026-05-10,D,yes,paper,no,Active report
+reports/data/fixed_income_data_audit.md,md,22490,2026-05-10,D,yes,paper,no,Active report
+reports/fi_expanded/correlation_matrix_fi_expanded.csv,csv,4023,2026-05-10,D,yes,paper,no,Active report
+reports/fi_expanded/data_validation_fi_expanded.md,md,5349,2026-05-10,D,yes,paper,no,Active report
+reports/fi_expanded/fi_expanded_comparison.md,md,12115,2026-05-10,D,yes,paper,no,Active report
+reports/fi_expanded/fixed_income_file_validation.md,md,7389,2026-05-10,D,yes,paper,no,Active report
+reports/fi_expanded/panel_a_performance_fi_expanded.csv,csv,2267,2026-05-10,D,yes,paper,no,Active report
+reports/fi_expanded/panel_a_summary_fi_expanded.md,md,1913,2026-05-10,D,yes,paper,no,Active report
+reports/fi_expanded/panel_b_performance_fi_expanded.csv,csv,3822,2026-05-10,D,yes,paper,no,Active report
+reports/fi_expanded/panel_b_summary_fi_expanded.md,md,2805,2026-05-10,D,yes,paper,no,Active report
+reports/fi_expanded/panel_b_tc_sensitivity_fi_expanded.csv,csv,532,2026-05-10,D,yes,paper,no,Active report
+reports/fi_expanded/return_summary_fi_expanded.csv,csv,907,2026-05-10,D,yes,paper,no,Active report
+reports/fi_expanded/series_coverage_fi_expanded.csv,csv,917,2026-05-10,D,yes,paper,no,Active report
+reports/figures/full_sample_regime_timeline.png,png,299363,2026-05-12,E,yes,paper,no,Active figure
+reports/final/cleanup_dependency_check.md,md,4925,2026-05-10,D,yes,paper,no,Final consolidated report
+reports/final/documentation_consistency_audit.md,md,8490,2026-05-11,D,yes,paper,no,Final consolidated report
+reports/final/final_documentation_polish.md,md,5261,2026-05-11,D,yes,paper,no,Final consolidated report
+reports/final/full_project_submission_audit.md,md,50417,2026-05-12,D,yes,paper,no,Final consolidated report
+reports/final/model_backtest_summary.md,md,12544,2026-05-12,D,yes,paper,no,Final consolidated report
+reports/final/repository_cleanup_report.md,md,6359,2026-05-10,D,yes,paper,no,Final consolidated report
+reports/final/static_cvar_sharpe_reconciliation.md,md,6349,2026-05-12,D,yes,paper,no,Final consolidated report
+reports/final/v8_correction_report.md,md,10300,2026-05-12,D,yes,paper,no,Final consolidated report
+reports/final/zew_label_agreement_verification.md,md,5358,2026-05-11,D,yes,paper,no,Final consolidated report
+reports/model_improvement/panel_b_performance_zew_swap.csv,csv,2921,2026-05-10,D,yes,paper,no,Active report
+reports/model_improvement/panel_b_summary_zew_swap.md,md,2592,2026-05-10,D,yes,paper,no,Active report
+reports/model_improvement/panel_b_tc_sensitivity_zew_swap.csv,csv,1776,2026-05-10,D,yes,paper,no,Active report
+reports/model_improvement/rebalance_frequency/rebalance_frequency_crisis_windows.csv,csv,10980,2026-05-10,D,yes,paper,no,Active report
+reports/model_improvement/rebalance_frequency/rebalance_frequency_performance.csv,csv,19073,2026-05-10,D,yes,paper,no,Active report
+reports/model_improvement/rebalance_frequency/rebalance_frequency_summary.md,md,10121,2026-05-10,D,yes,paper,no,Active report
+reports/model_improvement/rebalance_frequency/rebalance_frequency_tc_sensitivity.csv,csv,2632,2026-05-10,D,yes,paper,no,Active report
+reports/model_improvement/regime_constraints/crisis_window_performance.csv,csv,1147,2026-05-12,D,yes,paper,no,Active report
+reports/model_improvement/regime_constraints/performance.csv,csv,2693,2026-05-12,D,yes,paper,no,Active report
+reports/model_improvement/regime_constraints/regime_average_weights.csv,csv,1113,2026-05-12,D,yes,paper,no,Active report
+reports/model_improvement/regime_constraints/regime_constraints_summary.md,md,7384,2026-05-12,D,yes,paper,no,Active report
+reports/model_improvement/regime_constraints/tc_sensitivity.csv,csv,534,2026-05-12,D,yes,paper,no,Active report
+reports/model_improvement/tc_aware_cvar/performance.csv,csv,16291,2026-05-10,D,yes,paper,no,Active report
+reports/model_improvement/tc_aware_cvar/tc_aware_cvar_summary.md,md,5604,2026-05-10,D,yes,paper,no,Active report
+reports/model_improvement/tc_aware_cvar/tc_sensitivity.csv,csv,1969,2026-05-10,D,yes,paper,no,Active report
+reports/model_improvement/tc_aware_cvar/turnover_summary.csv,csv,3187,2026-05-10,D,yes,paper,no,Active report
+reports/model_improvement/turnover_smoothing/zew_smooth50_performance.csv,csv,6041,2026-05-10,D,yes,paper,no,Active report
+reports/model_improvement/turnover_smoothing/zew_smooth50_recommendation.md,md,3406,2026-05-10,D,yes,paper,no,Active report
+reports/model_improvement/turnover_smoothing/zew_smooth50_summary.md,md,4676,2026-05-10,D,yes,paper,no,Active report
+reports/model_improvement/turnover_smoothing/zew_smooth50_tc_sensitivity.csv,csv,994,2026-05-10,D,yes,paper,no,Active report
+reports/model_improvement/zew_swap_comparison.md,md,1771,2026-05-10,D,yes,paper,no,Active report
+reports/model_improvement/zew_swap_statistical_tests.md,md,2185,2026-05-10,D,yes,paper,no,Active report
+reports/panels/panel_a_long_horizon_performance.csv,csv,1983,2026-05-09,D,yes,paper,no,Active report
+reports/panels/panel_a_long_horizon_summary.md,md,2673,2026-05-09,D,yes,paper,no,Active report
+reports/panels/panel_a_statistical_tests.csv,csv,414,2026-05-09,D,yes,paper,no,Active report
+reports/panels/panel_a_statistical_tests.md,md,2685,2026-05-09,D,yes,paper,no,Active report
+reports/panels/panel_b_regime_oos_performance.csv,csv,2871,2026-05-09,D,yes,paper,no,Active report
+reports/panels/panel_b_regime_oos_performance_hicp_lag6.csv,csv,2716,2026-05-09,D,yes,paper,no,Active report
+reports/panels/panel_b_regime_oos_summary.md,md,3919,2026-05-09,D,yes,paper,no,Active report
+reports/panels/panel_b_regime_oos_summary_hicp_lag6.md,md,1377,2026-05-09,D,yes,paper,no,Active report
+reports/panels/panel_b_regime_oos_tc_sensitivity.csv,csv,1726,2026-05-09,D,yes,paper,no,Active report
+reports/panels/panel_b_regime_oos_tc_sensitivity_hicp_lag6.csv,csv,385,2026-05-09,D,yes,paper,no,Active report
+reports/panels/panel_b_statistical_tests.csv,csv,562,2026-05-09,D,yes,paper,no,Active report
+reports/panels/panel_b_statistical_tests.md,md,3067,2026-05-09,D,yes,paper,no,Active report
+reports/regimes/date_pipeline_audit.md,md,5157,2026-05-08,D,yes,paper,no,Active report
+reports/regimes/hicp_lag6_robustness.md,md,2927,2026-05-09,D,yes,paper,no,Active report
+reports/regimes/hmm_regime_summary.md,md,2034,2026-05-07,D,yes,paper,no,Active report
+reports/regimes/macro_release_date_risk_audit.md,md,11904,2026-05-09,D,yes,paper,no,Active report
+reports/regimes/window_recovery_options.md,md,11703,2026-05-08,D,yes,paper,no,Active report
+requirements.txt,txt,1419,2026-05-08,G,yes,human,no,Top-level documentation
+scripts/01_validate_and_build_dataset.py,py,2792,2026-04-27,B,yes,RUN_ORDER,no,Active analysis script
+scripts/02_hmm_walkforward_156.py,py,5259,2026-05-09,B,yes,RUN_ORDER,no,Active analysis script
+scripts/06_panel_a_long_horizon.py,py,10769,2026-05-10,B,yes,RUN_ORDER,no,Active analysis script
+scripts/07_figures/generate_paper_figures.py,py,17144,2026-05-12,B,yes,RUN_ORDER,no,Active analysis script
+scripts/07_panel_b_regime_oos.py,py,16865,2026-05-10,B,yes,RUN_ORDER,no,Active analysis script
+scripts/08_panel_statistical_tests.py,py,12870,2026-05-10,B,yes,RUN_ORDER,no,Active analysis script
+scripts/09_regime_timeline_figure.py,py,8550,2026-05-09,B,yes,RUN_ORDER,no,Active analysis script
+scripts/10_hicp_lag6_robustness.py,py,28495,2026-05-10,B,yes,RUN_ORDER,no,Active analysis script
+scripts/11_zew_swap_experiment.py,py,36368,2026-05-10,B,yes,RUN_ORDER,no,Active analysis script
+scripts/12_rebalance_frequency_experiment.py,py,34352,2026-05-10,B,yes,RUN_ORDER,no,Active analysis script
+scripts/13_turnover_smoothing_experiment.py,py,36376,2026-05-11,B,yes,RUN_ORDER,no,Active analysis script
+scripts/14_tc_aware_cvar_experiment.py,py,37347,2026-05-10,B,yes,RUN_ORDER,no,Active analysis script
+scripts/15_regime_constraints_experiment.py,py,33742,2026-05-12,B,yes,RUN_ORDER,no,Active analysis script
+scripts/16_fi_expanded_universe.py,py,16749,2026-05-10,B,yes,RUN_ORDER,no,Active analysis script
+scripts/17_panel_a_fi_expanded.py,py,10469,2026-05-10,B,yes,RUN_ORDER,no,Active analysis script
+scripts/18_panel_b_fi_expanded.py,py,14721,2026-05-10,B,yes,RUN_ORDER,no,Active analysis script
+scripts/archive/02_fit_hmm.py,py,4711,2026-05-07,I,no,none,archive,Archived scripts (superseded)
+scripts/archive/03_cvar_optimization.py,py,8908,2026-05-07,I,no,none,archive,Archived scripts (superseded)
+scripts/archive/04_canonical_backtest.py,py,31918,2026-05-09,I,no,none,archive,Archived scripts (superseded)
+scripts/archive/05_statistical_tests.py,py,11308,2026-05-09,I,no,none,archive,Archived scripts (superseded)
+scripts/archive/generate_data_inventory_yaml.py,py,9965,2026-04-24,I,no,none,archive,Archived scripts (superseded)
+scripts/archive/generate_data_inventory_yaml_fast.py,py,10371,2026-04-24,I,no,none,archive,Archived scripts (superseded)
+scripts/archive/hmm_walkforward_checkpoint.py,py,10291,2026-05-08,I,no,none,archive,Archived scripts (superseded)
+scripts/archive/write_data_inventory_yaml_static.py,py,14524,2026-04-24,I,no,none,archive,Archived scripts (superseded)
+src/__init__.py,py,33,2026-04-25,A,yes,scripts,no,Shared library module
+src/data/__init__.py,py,231,2026-04-25,A,yes,scripts,no,Shared library module
+src/data/build_panels.py,py,5349,2026-05-08,A,yes,scripts,no,Shared library module
+src/data/cleaning.py,py,24644,2026-05-07,A,yes,scripts,no,Shared library module
+src/data/config.py,py,2168,2026-04-25,A,yes,scripts,no,Shared library module
+src/data/feature_engineering.py,py,9220,2026-05-07,A,yes,scripts,no,Shared library module
+src/data/loaders.py,py,5757,2026-04-25,A,yes,scripts,no,Shared library module
+src/data/reporting.py,py,15536,2026-05-09,A,yes,scripts,no,Shared library module
+src/data/transformations.py,py,3131,2026-05-08,A,yes,scripts,no,Shared library module
+src/data/validation.py,py,9005,2026-04-25,A,yes,scripts,no,Shared library module
+src/models/__init__.py,py,31,2026-05-07,A,yes,scripts,no,Shared library module
+src/models/hmm.py,py,23679,2026-05-08,A,yes,scripts,no,Shared library module
+src/optimization/__init__.py,py,35,2026-05-07,A,yes,scripts,no,Shared library module
+src/optimization/cvar.py,py,22150,2026-05-08,A,yes,scripts,no,Shared library module
+src/optimization/markowitz.py,py,5151,2026-05-09,A,yes,scripts,no,Shared library module
